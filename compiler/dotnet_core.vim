@@ -11,5 +11,5 @@ endif
 
 CompilerSet makeprg=dotnet\ build\ /nologo\ /p:GenerateFullPaths=true\ /clp:NoSummary\ /verbosity:quiet
 
-CompilerSet errorformat=\ %#%f(%l\\\,%c):\ %tarning\ %m\ [%.%#]
-CompilerSet errorformat+=\ %#%f(%l\\\,%c):\ %trror\ %m\ [%.%#]
+CompilerSet errorformat=%f(%l\\\,%c):\ %tarning\ %m\ [%.%#]
+CompilerSet errorformat+=%f(%l\\\,%c):\ %trror\ %m\ [%.%#]

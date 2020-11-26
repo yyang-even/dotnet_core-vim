@@ -1,0 +1,1 @@
+/home/user/projects/example/app/Program.cs(45,42): error CS0103: The name 'prefix_sum' does not exist in the current context [/home/user/projects/example/app/app.csproj]
