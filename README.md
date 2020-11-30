@@ -1,6 +1,9 @@
 # dotnet_core-vim
 Yet another Vim compiler plugin for .NET Core build command.
 
+## Usage
+Use this plugin like any other Vim compiler plugins.
+
 ## Credits
 This plugin was largely inspired by [vim-compiler-plugin-for-dotnet] and [vim-dotnet].
 

@@ -1,0 +1,26 @@
+*dotnet_core.txt* Yet another Vim compiler plugin for .NET Core build command.
+
+  __| | ___ | |_ _ __   ___| |_     ___ ___  _ __ ___  | |__  _   _(_) | __| | ~
+ / _` |/ _ \| __| '_ \ / _ \ __|   / __/ _ \| '__/ _ \ | '_ \| | | | | |/ _` | ~
+| (_| | (_) | |_| | | |  __/ |_   | (_| (_) | | |  __/ | |_) | |_| | | | (_| | ~
+ \__,_|\___/ \__|_| |_|\___|\__|___\___\___/|_|  \___| |_.__/ \__,_|_|_|\__,_| ~
+                              |_____|                                          ~
+
+==============================================================================
+CONTENTS                                                   *DotnetCoreContents*
+
+    1. Usage ............................ |DotnetCoreUsage|
+    1. Credits .......................... |DotnetCoreCredits|
+
+==============================================================================
+Section 1: Usage                                             *DotnetCoreUsage*
+
+Use this plugin like any other Vim compiler plugins. See |compiler-select| for
+more details.
+
+==============================================================================
+Section 2: Credits                                         *DotnetCoreCredits*
+
+This plugin was largely inspired by
+[vim-compiler-plugin-for-dotnet] (https://github.com/tmadsen/vim-compiler-plugin-for-dotnet)
+and [vim-dotnet] (https://github.com/Gankarloo/vim-dotnet).
