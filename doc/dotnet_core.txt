@@ -18,6 +18,9 @@ Section 1: Usage                                             *DotnetCoreUsage*
 Use this plugin like any other Vim compiler plugins. See |compiler-select| for
 more details.
 
+This plugin shall also set the `:compiler` automatically when Vim sets a buffer's
+'filetype' to cs, unless it is overridden by another command of similar purposes.
+
 ==============================================================================
 Section 2: Credits                                         *DotnetCoreCredits*
 
