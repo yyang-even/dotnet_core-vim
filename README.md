@@ -9,7 +9,7 @@ Once help tags have been generated, you can view the manual with `:help dotnet_c
 ## Usage
 Use this plugin like any other Vim compiler plugins.
 
-This plugin shall also set the `:compiler` automatically when Vim sets a buffer's
+This plugin also set the `:compiler` automatically when Vim sets a buffer's
 `filetype` to `cs`, unless it is overridden by another command of similar purposes.
 
 ## Credits
