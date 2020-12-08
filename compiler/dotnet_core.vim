@@ -9,8 +9,8 @@ if exists(":CompilerSet") != 2		" older Vim always used :setlocal
 endif
 
 
-" CompilerSet makeprg=dotnet build   For :Dispatch to pick the right compiler plugin
+" Make it easier for :Dispatch to pick the right compiler plugin
+" CompilerSet makeprg=dotnet build
 CompilerSet makeprg=dotnet\ build\ /nologo\ /p:GenerateFullPaths=true\ /clp:NoSummary\ /verbosity:quiet
 
-CompilerSet errorformat=%f(%l\\\,%c):\ %tarning\ %m\ [%.%#]
-CompilerSet errorformat+=%f(%l\\\,%c):\ %trror\ %m\ [%.%#]
+CompilerSet errorformat=%f(%l\\\,%c):\ %m\ [%.%#]
